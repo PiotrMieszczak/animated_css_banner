@@ -1,0 +1,62 @@
+@keyframes firstLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+    100%{
+        top: 40px;
+        left: 0;
+
+    }
+}
+@keyframes secondLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+
+    100%{
+        top: 160px;
+        left: 0;
+    }
+}
+@keyframes thirdLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+    100%{
+        top: 280px;
+        left: 0;
+    }
+}
+@keyframes fourthLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+    100%{
+        top: 390px;
+        left: 0;
+    }
+}
+
+div.firstLine {
+    animation: firstLine_first 3s forwards;
+}
+div.secondLine {
+    animation: secondLine_first 5s 2s forwards;
+
+}
+div.thirdLine {
+    animation: thirdLine_first 5s 5s forwards;
+
+}
+div.fourthLine {
+    animation: fourthLine_first 5s  8s forwards;
+
+}

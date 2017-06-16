@@ -1,0 +1,48 @@
+@keyframes no_padding{
+
+    100%{
+       margin: 0px;
+    }
+};
+
+
+div.firstLine {
+
+    .sign{
+        animation: no_padding 3s 14s forwards;
+    }
+
+    .sprite{
+         animation: no_padding 3s 14s forwards;
+    }
+}
+div.secondLine {
+
+    .sign{
+        animation: no_padding 3s 16s forwards;
+    }
+
+    .sprite{
+         animation: no_padding 3s 16s forwards;
+    }
+}
+div.thirdLine {
+
+    .sign{
+        animation: no_padding 3s 18s forwards;
+    }
+
+    .sprite{
+         animation: no_padding 3s 18s forwards;
+    }
+}
+div.fourthLine {
+
+    .sign{
+        animation: no_padding 3s 20s forwards;
+    }
+
+    .sprite{
+         animation: no_padding 3s 20s forwards;
+    }
+}
