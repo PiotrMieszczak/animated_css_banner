@@ -1,0 +1,105 @@
+@keyframes no_padding{
+
+    100%{
+       margin: 0px;
+    }
+};
+
+
+@keyframes changeLine1{
+
+    0%{
+        background-position: 300px 100px;
+    }
+
+    100%{
+        background-position: 300px 200px;
+    }
+}
+@keyframes changeLine2{
+
+    0%{
+        background-position: 0 100px;
+    }
+
+    100%{
+        background-position: 0 0;
+    }
+}
+@keyframes changeLine3{
+
+    0%{
+        background-position: 200px 100px;
+    }
+
+    100%{
+        background-position: 200px 0;
+    }
+}
+@keyframes changeLine4{
+
+    0%{
+        background-position: 100px 300px;
+    }
+
+    100%{
+        background-position: 500px 200px;
+    }
+}
+
+
+
+
+div.firstLine {
+
+    .sign{
+        animation: no_padding 1s 13s forwards;
+    }
+
+    .sprite{
+         animation:  no_padding, changeLine1;
+         animation-duration:  1s, 1ms;
+         animation-delay: 13s, 17s;
+         animation-fill-mode: forwards;
+
+    }
+}
+div.secondLine {
+
+    .sign{
+        animation: no_padding 1s 14s forwards;
+    }
+
+    .sprite{
+         animation:  no_padding, changeLine2;
+         animation-duration:  1s, 1ms;
+         animation-delay: 14s, 17.5s;
+         animation-fill-mode: forwards;
+    }
+}
+div.thirdLine {
+
+    .sign{
+        animation: no_padding 1s 15s forwards;
+    }
+
+    .sprite{
+         animation:  no_padding, changeLine3;
+         animation-duration:  1s, 1ms;
+         animation-delay: 15s, 18s;
+         animation-fill-mode: forwards;
+    }
+}
+div.fourthLine {
+
+    .sign{
+        animation: no_padding 1s 16s forwards;
+    }
+
+    .sprite{
+        animation:  no_padding, changeLine4;
+         animation-duration:  1s, 1ms;
+         animation-delay: 16s, 18.5s;
+         animation-fill-mode: forwards;
+    }
+}
