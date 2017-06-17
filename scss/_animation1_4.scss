@@ -63,7 +63,7 @@
         left:0;
     }
     100%{
-        left: 100vw;
+        transform: translateX(100vw);
     }
 
 }
