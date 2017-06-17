@@ -1,7 +1,7 @@
 @import "reset";
+@import "animation1_4";
+@import "animation2_3_4";
 
-@import "animation2_3";
-@import "animation1";
 
 
 .container{
@@ -15,7 +15,7 @@
 
 .sprite{  //class for whole sprite.png
     background-image: url('../images/sprite.png');
-    width: 100px;
+    width: 100px; 
     height: 100px;
     float: right;
     margin-right: 100px;

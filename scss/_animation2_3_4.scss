@@ -48,6 +48,20 @@
 }
 
 
+//animation 4 - rotate sprite
+
+@keyframes rotateLeft{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotateRight{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 
 
 div.firstLine {
@@ -57,9 +71,9 @@ div.firstLine {
     }
 
     .sprite{
-         animation:  no_padding, changeLine1;
-         animation-duration:  1s, 1ms;
-         animation-delay: 13s, 17s;
+         animation:  no_padding, changeLine1, rotateLeft;
+         animation-duration:  1s, 1ms, 5s;
+         animation-delay: 13s, 17s, 19s;
          animation-fill-mode: forwards;
 
     }
@@ -71,9 +85,9 @@ div.secondLine {
     }
 
     .sprite{
-         animation:  no_padding, changeLine2;
-         animation-duration:  1s, 1ms;
-         animation-delay: 14s, 17.5s;
+         animation:  no_padding, changeLine2, rotateRight;
+         animation-duration:  1s, 1ms, 5s;
+         animation-delay: 14s, 17.5s, 19.5s;
          animation-fill-mode: forwards;
     }
 }
@@ -84,9 +98,9 @@ div.thirdLine {
     }
 
     .sprite{
-         animation:  no_padding, changeLine3;
-         animation-duration:  1s, 1ms;
-         animation-delay: 15s, 18s;
+         animation:  no_padding, changeLine3, rotateLeft;
+         animation-duration:  1s, 1ms, 5s;
+         animation-delay: 15s, 18s, 20s;
          animation-fill-mode: forwards;
     }
 }
@@ -97,9 +111,9 @@ div.fourthLine {
     }
 
     .sprite{
-        animation:  no_padding, changeLine4;
-         animation-duration:  1s, 1ms;
-         animation-delay: 16s, 18.5s;
+        animation:  no_padding, changeLine4, roateRight;
+         animation-duration:  1s, 1ms, 5s;
+         animation-delay: 16s, 18.5s, 20.5s;
          animation-fill-mode: forwards;
     }
 }

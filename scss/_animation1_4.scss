@@ -1,0 +1,97 @@
+@keyframes firstLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+    100%{
+        top: 40px;
+        left: 0;
+
+    }
+}
+@keyframes secondLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+
+    100%{
+        top: 160px;
+        left: 0;
+    }
+}
+@keyframes thirdLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+    100%{
+        top: 280px;
+        left: 0;
+    }
+}
+@keyframes fourthLine_first{
+    0%{
+        top: - 100px;
+        left: 0;
+    }
+
+    100%{
+        top: 390px;
+        left: 0;
+    }
+}
+
+//animation 4 -moveLine
+
+@keyframes moveLineLeft{
+
+    0%{
+        left: 0;
+    }
+    100%{
+        left: -100vw;
+    }
+
+}
+@keyframes moveLineRight{
+
+    0%{
+        left:0;
+    }
+    100%{
+        left: 100vw;
+    }
+
+}
+
+div.firstLine {
+
+         animation:  firstLine_first, moveLineLeft;
+         animation-duration:  2s, 5s;
+         animation-delay: 1s, 19s;
+         animation-fill-mode: forwards;
+}
+div.secondLine {
+
+         animation:  secondLine_first, moveLineRight;
+         animation-duration:  4s, 5s;
+         animation-delay: 2s, 19.5s;
+         animation-fill-mode: forwards;
+}
+div.thirdLine {
+         animation:  thirdLine_first, moveLineLeft;
+         animation-duration:  4s, 5s;
+         animation-delay: 5s, 20s;
+         animation-fill-mode: forwards;
+}
+div.fourthLine {
+
+        animation:  fourthLine_first, moveLineRight;
+         animation-duration:  4s, 5s;
+         animation-delay: 8s, 20.5s;
+         animation-fill-mode: forwards;
+}
