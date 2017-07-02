@@ -11,24 +11,25 @@ body{
     height: 600px;
     position: relative;
     margin: 0 auto;
+    overview: hidden;
 
 }
 
 
 .sprite{  //class for whole sprite.png
     background-image: url('../images/sprite.png');
-    width: 100px; 
+    width: 100px;
     height: 100px;
     float: right;
     margin-right: 100px;
-    
+
 }
 
-.sign{ 
+.sign{
         font-size: 48px;
         line-height: 2em;
         position: absolute;
-        font-family: Arial, sans-serif; 
+        font-family: Arial, sans-serif;
         float: left;
         width: 60%;
         height: 100%;
@@ -36,7 +37,7 @@ body{
         opacity: 1;
         margin-left: 100px;
 }
-.firstLine{ //candy canes line 
+.firstLine{ //candy canes line
     position: absolute;
     width: 100%;
     top: -100px;
@@ -47,7 +48,7 @@ body{
 }
 
 .secondLine{ //cake tootsie line
-   
+
     position: absolute;
     width: 100%;
     top: -100px;
@@ -71,7 +72,7 @@ body{
 }
 
 .fourthLine{ //halvah cookie line
-   
+
     position: absolute;
     width: 100%;
     top: -100px;
@@ -98,8 +99,8 @@ body{
     margin:0 auto;
     text-align: center;
 }
- 
-.danish{ 
+
+.danish{
     position: absolute;
     opacity: 0;
     top: 60%;
@@ -110,11 +111,11 @@ body{
     font-family: 'Lobster', cursive;
     margin:0 auto;
     text-align: center;
- 
+
 }
 
 .sweetroll{
-    border: 1px solid black; 
+    border: 1px solid black;
     position: absolute;
     font-size: 20px;
     // padding: 0 2px;
